@@ -3,7 +3,7 @@
 version: '3.8'
 services:
   postgres:
-    image: postgres:${DB_POSTGRES_VERSION}
+    image: postgres:${APP_VERSION}
     container_name: ${APP_NAME}
     restart: always
     ports:
